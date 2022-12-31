@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="rest-assured" verbose="1" >
+    <test name="API Automation" >
+        <classes>
+            <class name="com.vahire.ra.GetRequestPart1" />
+            <class name="com.vahire.ra.PostRequest" />
+        </classes>
+    </test>
+</suite>
